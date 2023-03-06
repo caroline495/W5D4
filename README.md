@@ -41,7 +41,7 @@ respectively, for the first enrollment.
 ## `User`
 
 Add associations for `enrollments` and `enrolled_courses`. This might take a
-little bit of thinking. (**HINT**: Go through the first association to complete
+little bit of thinking. (**HINT:** Go through the first association to complete
 the second.)
 
 You will know you have succeeded when you can execute `User.first.enrollments`
@@ -86,4 +86,4 @@ Finally, add an `instructor` association to `Course`. This will point to a
 `User` object. Note that `Course` is now related to `User` in two ways: through
 `instructor` and through `enrolled_students`.
 
-**Call over an instructor** and show them your associations code.
+**Call over an Instructor** and show them your associations code.
