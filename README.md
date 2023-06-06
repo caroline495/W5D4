@@ -16,7 +16,7 @@ Be sure to check out __db/schema.rb__ to see what the database contains. Run
 `bundle exec annotate --models` to put the schema information at the top of each
 model file.
 
-## Learning Goals
+## Learning goals
 
 By the end of this project, you should
 
